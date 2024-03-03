@@ -1,0 +1,14 @@
+#first github actions file
+
+name: simple echo
+
+on: [push]
+jobs:
+  echo_job:
+    name: Echo message
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Echo hello
+      run: echo "Hello, Girish"
+  
