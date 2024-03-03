@@ -5,7 +5,7 @@ name: simple echo
 on: 
   push:
     branches:
-     - main
+     - '*test'
 
 jobs:
   echo_job:
