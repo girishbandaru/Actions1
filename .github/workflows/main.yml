@@ -6,6 +6,7 @@ on:
   push:
     branches:
      - main
+
 jobs:
   echo_job:
     name: Echo message
@@ -13,5 +14,4 @@ jobs:
 
     steps:
     - name: Echo hello
-      run: echo "Hello, world"
-  
+      run: echo "Hello, now we merged this code to main branch"  
