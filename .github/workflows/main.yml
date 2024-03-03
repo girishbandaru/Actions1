@@ -13,5 +13,5 @@ jobs:
 
     steps:
     - name: Echo hello
-      run: echo "Hello, now we merged this code to main branch"
+      run: echo "Hello, world"
   
