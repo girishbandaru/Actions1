@@ -14,4 +14,10 @@ jobs:
 
     steps:
     - name: Echo hello
-      run: echo "Hello, this is in 2nd test branch"  
+      run: echo "Hello, this is in 2nd test branch"
+  echo_job_2:
+    name: Echo message 2
+    runs-on: ubuntu-lates
+    steps:
+    - name: Echo second message
+      run: echo "This is second Message"
