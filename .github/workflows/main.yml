@@ -19,5 +19,9 @@ jobs:
     name: Echo message 2
     runs-on: ubuntu-latest
     steps:
-    - name: Echo second message
+    - name: Echo waiting for 5 seconds
+      run: echo "waiting for 5 seconds"
+    - name: wait for 5 seconds
+      run: sleep
+    - name: printing the second message
       run: echo "This is second Message"
